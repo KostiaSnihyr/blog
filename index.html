@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section id="news-feed" class="blog-post">
+            <h2>News Feed</h2>
+        </section>
+        <section class="blog-creation">
+            <h2>Post Constructor</h2>
+            <form>
+                <div class="input-wrapper">
+                    <label for="author">Author</label>
+                    <input type="text" id="author">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="content">Post Text</label>
+                    <textarea id="post-text" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="image-preview">
+                    <img id="preview" src="" alt="">
+                </div>
+
+                <div class="upload-wrapper">
+                    <label for="srcUpload">Image Url</label>
+                    <input type="text" id="srcUpload">
+                    <input id="upload" class="hide" type="file" onchange="previewFile()">
+                    <label id="upload-label" for="upload">Upload</label>
+                </div>
+
+                <button id="send-post">Send Post</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

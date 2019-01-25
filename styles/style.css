@@ -1,0 +1,156 @@
+.wrapper {
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(235, 230, 230);
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.blog-post {
+    width: 900px;
+}
+
+.blog-creation {
+    width: 400px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.input-wrapper label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+.input-wrapper input, .input-wrapper textarea {
+    width: 290px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.image-preview {
+    width: 294px;
+    height: 150px;
+    margin-left: auto;
+    border: .1px solid black;
+    margin-top: 10px;
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100%;
+}
+
+#send-post {
+    display: block;
+    background: orange;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.hide {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+}
+
+#upload-label {
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 1px 5px;
+    border-radius: 1px;
+}
+
+.upload-wrapper :nth-child(1) {
+    display: inline-block;
+    width: 100px;
+}
+
+.upload-wrapper :nth-child(2) {
+    width: 230px;
+}
+
+#post-image {
+    width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.postWrapper {
+    position: relative;
+    padding-top: 40px;
+    margin-top: 20px;
+    border-top: 10px solid rgb(43, 55, 127);
+    background-color: #faf;
+}
+
+.postWrapper a {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.postWrapper time {
+    position: absolute;
+    left: 760px;
+}
+
+.postWrapper p {
+    padding: 0 30px;
+}
+
+/*.postWrapper :nth-child(5) {
+    margin-left: 30px;
+}*/
+
+
+.create-comment {
+    position: absolute;
+    left: 760px;
+}
+
+.comment-wrapper {
+    /*height: 200px;*/
+    background-color: rgb(180, 179, 179);
+}
+
+.comment-wrapper input, .comment-wrapper textarea, .comment-wrapper button {
+    width: 840px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.comment-wrapper button {
+    background-color: orange;
+}
+
+
+
+
+/*new code*/
+
+.post-wrapper {
+    padding: 20px 50px;
+    background-color: #b4b3b3;
+}
+.last_reply {
+    padding-left: 50px;
+    background-color: #3d3d3d;
+}
+.last_reply a { font-size: 18px; text-transform: uppercase; color: #fff; }
+.last_reply p { font-size: 14px; color: #aaa; }
+
+
